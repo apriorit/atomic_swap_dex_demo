@@ -27,7 +27,7 @@ class Home extends Component {
 
         <Card style={{ marginTop: 20 }}>
           You can find complete usage instuctions in a README.md{" "}
-          <a href="https://github.com/akorunska/awesome-dex/blob/master/README.md">
+          <a href="https://github.com/apriorit/atomic_swap_dex_demo/blob/master/README.md">
             here
           </a>
         </Card>
@@ -36,8 +36,8 @@ class Home extends Component {
   }
 }
 
-export default connect(state => {
+export default connect((state) => {
   return {
-    user: state.user
+    user: state.user,
   };
 })(Home);
