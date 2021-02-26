@@ -1,5 +1,5 @@
 aenum==2.1.2
-aiohttp==3.5.4
+aiohttp==3.7.4
 apturl==0.5.2
 asn1crypto==0.24.0
 astor==0.8.0
